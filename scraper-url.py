@@ -1,5 +1,5 @@
 import time
-import re
+# import re
 import pandas as pd
 
 from urllib.parse import urljoin
