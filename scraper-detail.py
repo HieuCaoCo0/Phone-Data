@@ -17,9 +17,9 @@ OUTPUT_FILE = BASE_DIR / "raw_data1.csv"
 START_ROW = 144
 END_ROW = 14892
 
-MIN_DELAY = 5   # Thời gian nghỉ tối thiểu giữa các trang (giây)
-MAX_DELAY = 12   # Thời gian nghỉ tối đa giữa các trang (giây)
-WAIT_TIMEOUT = 25 
+MIN_DELAY = 20   # Thời gian nghỉ tối thiểu giữa các trang (giây)
+MAX_DELAY = 25   # Thời gian nghỉ tối đa giữa các trang (giây)
+WAIT_TIMEOUT = 30 
 MAX_RETRIES = 3 # Số lần thử lại tối đa nếu request lỗi/bị chặn
 RELAUNCH_DRIVER_EVERY = 150 # Khởi động lại Chrome sau mỗi 150 thiết bị để tránh tràn bộ nhớ
 
